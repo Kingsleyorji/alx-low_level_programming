@@ -1,15 +1,16 @@
 #include "main.h"
+#include <unistd.h>
+
 /**
- * Prints_alphabet - To print alphabets in lowercase, stop 
- * when at z'
+ * print_alphabet - Entry point.
  *
- * Return: All lowercase alphabet
+ * Return: Always 0 (Success)
  */
 void print_alphabet(void)
 {
 	char c = 'a';
 
-	while ( c <= 'z')
+	while (c <= 'z')
 	{
 		_putchar(c);
 		c++;
