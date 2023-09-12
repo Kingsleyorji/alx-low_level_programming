@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * Add -  Adds two integers and returns result.
+ * add -  Adds two integers and returns result.
  *
  * @m: Number being added.
  *
@@ -10,8 +10,8 @@
  */
 int add(int m, int n)
 {
-	int add (int m, int n)
+	int add(int m, int n)
 	{
-		return(m + n);
+		return (m + n);
 	}
 }
